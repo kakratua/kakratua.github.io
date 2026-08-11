@@ -16,4 +16,14 @@ reading_time: "อ่าน 1 นาที"
 - หมายเหตุ: เหลือวางแผนแบบละเอียดรายวัน
 
 ## กำหนดการคร่าว
+```schdue
+20-28 พฤศจิกาน 2569 autumn in my heart
+20 DMK -> NRT
+21 - 22 mt.fuji
+23 nikko
+24 ghibli museum
+25kamakura
+26 - 27 tokyo
+29 ซื้อของฝาก กลางคืนบินกลับ NTR -> DMK
+```
 
