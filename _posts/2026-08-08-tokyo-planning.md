@@ -16,7 +16,8 @@ reading_time: "อ่าน 1 นาที"
 - หมายเหตุ: เหลือวางแผนแบบละเอียดรายวัน
 
 ## กำหนดการคร่าว
-```schdue
+
+```schedule
 20-28 พฤศจิกาน 2569 autumn in my heart
 20 DMK -> NRT
 21 - 22 mt.fuji
