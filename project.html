@@ -1,0 +1,8 @@
+---
+layout: page
+---
+<div class="project-detail">
+  <div class="tags">{% for tech in page.tech %}<span>{{ tech }}</span>{% endfor %}</div>
+  {{ content }}
+  {% if page.link %}<p><a class="button primary" href="{{ page.link }}">ดูโปรเจกต์</a></p>{% endif %}
+</div>

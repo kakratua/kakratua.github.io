@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article class="article shell-narrow">
+  <header class="article-header">
+    <a class="back-link" href="{{ '/blog/' | relative_url }}">← กลับไปหน้าบล็อก</a>
+    <div class="tags">{% for tag in page.tags %}<a href="{{ '/blog/' | relative_url }}?tag={{ tag | url_encode }}">#{{ tag }}</a>{% endfor %}</div>
+    <h1>{{ page.title }}</h1>
+    <p class="article-deck">{{ page.description }}</p>
+    <div class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%d.%m.%Y' }}</time><span>{{ page.reading_time | default: 'อ่าน 4 นาที' }}</span></div>
+  </header>
+  <div class="prose">{{ content }}</div>
+</article>
