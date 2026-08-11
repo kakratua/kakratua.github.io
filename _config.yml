@@ -1,0 +1,33 @@
+title: Greerati.dev
+tagline: Data, AI, Copilot and better ways of working
+description: บล็อกส่วนตัวเกี่ยวกับ Data, Python, SQL, Automation, Microsoft Copilot และการเดินทาง
+url: ""
+baseurl: ""
+lang: th-TH
+timezone: Asia/Bangkok
+permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
+highlighter: rouge
+future: false
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Greerati Santitamchay
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules

@@ -1,0 +1,11 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+<section class="page-hero"><div class="shell"><p class="eyebrow">IDEAS & NOTES</p><h1>Blog</h1><p class="lead">เรื่องที่กำลังเรียนรู้ ทดลอง และนำไปใช้จริง</p></div></section>
+<section class="shell page-content">
+  <div class="filter-bar"><button class="tag-filter active" data-tag="all">ทั้งหมด</button>{% assign tags = site.tags | sort %}{% for tag in tags %}<button class="tag-filter" data-tag="{{ tag[0] | downcase }}">#{{ tag[0] }}</button>{% endfor %}</div>
+  <div class="card-grid post-list">{% for post in site.posts %}{% include post-card.html %}{% endfor %}</div>
+  <p class="empty-state" hidden>ยังไม่มีบทความในแท็กนี้</p>
+</section>
