@@ -1,0 +1,8 @@
+title: Greerati Blog
+description: Data • Automation • Copilot • Travel
+theme: null
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
