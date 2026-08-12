@@ -3,46 +3,40 @@ layout: default
 ---
 
 <article class="article shell-narrow">
-
   <header class="article-header">
-
-    {{ '/blog/' | relative_url }}
-      ← กลับไปหน้าบล็อก
-    </a>
+    <a class="back-link" href="{{ '/blog/' | relative_url }}">← กลับไปหน้าบล็อก</a>
 
     <div class="tags">
       {% for tag in page.tags %}
-      {{ '/blog/' | relative_url }}?tag={{ tag | url_encode }}
-        #{{ tag }}
-      </a>
+        <a href="{{ '/blog/' | relative_url }}?tag={{ tag | url_encode }}">#{{ tag }}</a>
       {% endfor %}
     </div>
 
     <h1>{{ page.title }}</h1>
-
-    <p class="article-deck">
-      {{ page.description }}
-    </p>
+    <p class="article-deck">{{ page.description }}</p>
 
     <div class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">
         {{ page.date | date: '%d.%m.%Y' }}
       </time>
-      <span>
-        {{ page.reading_time | default: 'อ่าน 4 นาที' }}
-      </span>
+      <span>{{ page.reading_time | default: 'อ่าน 4 นาที' }}</span>
     </div>
-
   </header>
 
   {% if page.image %}
-  <div class="article-cover">
-    {{ page.image | relative_url }}
-  </div>
+    <figure class="article-cover">
+      <img
+        src="{{ page.image | relative_url }}"
+        alt="{{ page.image_alt | default: page.title | escape }}"
+        loading="eager"
+        decoding="async">
+      {% if page.image_caption %}
+        <figcaption>{{ page.image_caption }}</figcaption>
+      {% endif %}
+    </figure>
   {% endif %}
 
   <div class="prose">
     {{ content }}
   </div>
-
 </article>
