@@ -5,7 +5,6 @@ tech: [HTML, Markdown, command]
 date: 2026-08-13
 ---
 
-
 # Markdown Cheat Sheet
 
 ## Heading (หัวข้อ)
@@ -185,4 +184,9 @@ date: 2026-08-13
 ## Code Block
 
 ### วิธีเขียน
+
+````markdown
+```python
+print("Hello World")
+```
 
