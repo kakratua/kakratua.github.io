@@ -2,8 +2,7 @@
 title: Blog ฟรีด้วย Github
 description: ของฟรีและดีมีอยู่จริง
 tech: [Paas, GitHub Pages, Jekyll]
-image: /assets/images/Khaoyai_2026/cover.JPG
-date: 2026-08-13
+date: 2026-08-12
 ---
 
 ## แนวคิด

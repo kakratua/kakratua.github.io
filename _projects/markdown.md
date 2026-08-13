@@ -2,6 +2,7 @@
 title: markdown(.md)
 description: การเขียน markdown เบื้องต้น
 tech: [Markdown, HTML, Productivity]
+date: 2026-08-12
 ---
 
 ## Markdown คืออะไร
