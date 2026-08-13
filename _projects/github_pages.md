@@ -14,8 +14,6 @@ tech: [Paas, GitHub Pages, Jekyll]
 
 ตัวอย่าง ที่ใช้คือตอนไปค้นหาว่าเราจะเดินทางในโตเกียวยังไง แล้วไปเจอ เว็บไซต์ที่มีเสียงของสถานต่างๆของสาย ยามาโนแตะ 
 
-```websit
-	yamenote.style
-```
+[yamanote.style](http://yamanote.style)
 
 อันนี้ก็ใช้ GitHub Pages ทำ ดีแถมฟรี ทำไมเราจะไม่ควรใช้หละ จริงปะ
