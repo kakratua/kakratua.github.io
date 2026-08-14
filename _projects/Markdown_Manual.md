@@ -131,6 +131,20 @@ date: 2026-08-13
 
 ---
 
+## Rate(Star)
+
+### วิธีเขียน
+
+```markdown
+![stars](https://starrating-beta.vercel.app/3.38/)
+```
+
+### ผลลัพธ์
+
+![stars](https://starrating-beta.vercel.app/3.38/)
+
+---
+
 ## Unordered List (Bullet)
 
 ### วิธีเขียน
@@ -189,4 +203,6 @@ date: 2026-08-13
 ```python
 print("Hello World")
 ```
+
+
 
