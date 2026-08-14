@@ -2,7 +2,7 @@
 title: "วางแผนเที่ยวญี่ปุ่น"
 description: "อยากพาลูกออกไปเที่ยว ตปท ซักครั้ง"
 tags: [Travel, Japan, Tokyo]
-categories: [Travel]
+categories: [Travel, Japan]
 reading_time: "อ่าน 1 นาที"
 ---
 
