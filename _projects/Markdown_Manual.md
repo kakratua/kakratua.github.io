@@ -185,9 +185,10 @@ date: 2026-08-13
 
 ### วิธีเขียน
 
-```markdown
+```
 `print("Hello")`
 ```
+
 
 ### ผลลัพธ์
 
@@ -201,8 +202,16 @@ date: 2026-08-13
 
 ````markdown
 ```python
-print("Hello World")
+def hello_world():
+    print("Hello, World!")
+```
+````
+
+### ผลลัพธ์
+```python
+def hello_world():
+    print("Hello, World!")
 ```
 
-
+---
 
