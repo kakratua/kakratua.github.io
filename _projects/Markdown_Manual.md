@@ -215,3 +215,16 @@ def hello_world():
 
 ---
 
+## Comment
+
+### วิธีเขียน
+
+```
+<!-- your comment here -->
+```
+
+### ผลลัพธ์
+<!-- your comment here -->
+
+---
+
