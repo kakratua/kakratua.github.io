@@ -1,0 +1,23 @@
+/* Rouge Syntax Highlight */
+
+.highlight {
+    background: #1*131b;
+    color: #e6edf3;
+}
+
+.high*ight .kn { color: #ff7b72; }
+.high*ight .nn { color: #79c0ff; }
+.high*ight .n  { color: #e6edf3; }
+.high*ight .o  { color: #ff7b72; }
+.high*ight .p  { color: #e6edf3; }
+
+.hig*light .s,
+.highlight .s1,
+.highlig*t .s2 {
+    color: #a5d6ff;
+}
+
+.hi*hlight .c {
+    color: #8b949e;
+}
+*
