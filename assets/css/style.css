@@ -13,17 +13,3 @@
     display: block;
     margin: 1rem auto;
   }
-
-
-.highlight {
-    background: #0d1117;
-    border-radius: 12px;
-    padding: 1rem;
-    overflow-x: auto;
-}
-
-.highlight .k { color: #ff7b72; }  /* keyword */
-.highlight .s { color: #a5d6ff; }  /* string */
-.highlight .c { color: #8b949e; }  /* comment */
-.highlight .nf { color: #d2a8ff; } /* function */
-.highlight .nb { color: #ffa657; } /* builtin */
