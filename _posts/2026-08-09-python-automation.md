@@ -1,15 +1,9 @@
 ---
 title: "Python Automation เริ่มจากงานเล็กก่อน"
 description: "เลือกงานซ้ำที่เหมาะกับการทำอัตโนมัติ และวางโครงสคริปต์ให้อ่านง่าย"
-
-tags:
-  - Python
-  - Automation
-
-categories:
-  - Coding
-
-reading_time: "อ่าน 6 นาที"
+tags: [Python, Automation]
+categories: [Coding]
+reading_time: "อ่าน 1 นาที"
 ---
 
 ลองแปะโค้ดดู
