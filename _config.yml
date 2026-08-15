@@ -1,6 +1,6 @@
 title: Greerati.dev
-tagline: Data, AI, Copilot and better ways of working
-description: บล็อกส่วนตัวเกี่ยวกับ Data, Python, SQL, Automation, Microsoft Copilot และการเดินทาง
+tagline: LIFE, FAMILY, TRAVEL, REVIEW
+description: บล็อกส่วนตัวเกี่ยวกับ ชีวิต และการเดินทาง
 url: ""
 baseurl: ""
 lang: th-TH
@@ -19,7 +19,7 @@ defaults:
       type: posts
     values:
       layout: post
-      author: Greerati Santitamchay
+      author: Greerati Santitamchai
   - scope:
       path: ""
       type: projects
