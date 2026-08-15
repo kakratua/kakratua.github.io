@@ -1,34 +1,19 @@
+/* Container block background and main text color */
 .highlight {
-    background: #10131b;
-    color: #e6edf3;
+  background: #272822; /* Monokai dark background */
+  color: #f8f8f2;      /* Default text */
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
 }
 
-.highlight .kn {
-    color: #ff7b72;
-}
-
-.highlight .nn {
-    color: #79c0ff;
-}
-
-.highlight .n {
-    color: #e6edf3;
-}
-
-.highlight .o {
-    color: #ff7b72;
-}
-
-.highlight .p {
-    color: #e6edf3;
-}
-
-.highlight .s,
-.highlight .s1,
-.highlight .s2 {
-  color: #a5d6ff;
-}
-
-.highlight .c {
-    color: #8b949e;
-}
+/* Individual syntax token styling */
+.highlight .c  { color: #75715e; font-style: italic; } /* Comment */
+.highlight .k  { color: #66d9ef; font-weight: bold; }  /* Keyword */
+.highlight .s  { color: #e6db74; }                     /* String */
+.highlight .n  { color: #f8f8f2; }                     /* Name/Identifier */
+.highlight .o  { color: #f92672; }                     /* Operator */
+.highlight .m  { color: #ae81ff; }                     /* Number literal */
+.highlight .nn { color: #f8f8f2; }                     /* Namespace */
+.highlight .nt { color: #f92672; }                     /* HTML/XML Tag */
+.highlight .na { color: #a6e22e; }                     /* HTML/XML Attribute */
