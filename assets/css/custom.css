@@ -1,61 +1,72 @@
-/* Base container style */
+/* Base container style (Sublime Text - Monokai Theme) */
 figure.highlight, pre {
-  background-color: #f6f8fa;
+  background-color: #272822; /* พื้นหลังสีเทาเข้ม */
   padding: 16px;
   border-radius: 6px;
   font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
   font-size: 14px;
   line-height: 1.45;
   overflow: auto;
-  color: #E9EDF2;
+  color: #f8f8f2; /* สีข้อความหลัก (ขาวนวล) */
 }
 
 /* Python Keywords (def, class, import, return, if) */
 .highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv { 
-  color: #d73a49; 
+  color: #f92672; /* สีชมพูอมแดง */
   font-weight: bold; 
 }
 
-/* Python Builtins & Functions (print, len, dict) */
-.highlight .nb, .highlight .nf, .highlight .fm { 
-  color: #6f42c1; 
+/* Python Functions (def function_name) */
+.highlight .nf, .highlight .fm { 
+  color: #a6e22e; /* สีเขียว */
+}
+
+/* Python Builtins (print, len, dict) */
+.highlight .nb {
+  color: #66d9ef; /* สีฟ้า */
+  font-style: italic;
 }
 
 /* Strings ('hello', "world", f-strings) */
 .highlight .s, .highlight .s1, .highlight .s2, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .si { 
-  color: #032f62; 
+  color: #e6db74; /* สีเหลือง */
 }
 
 /* Comments (# reference notes) */
 .highlight .c, .highlight .c1, .highlight .ch, .highlight .cm { 
-  color: #6a737d; 
+  color: #75715e; /* สีเทาหม่น */
   font-style: italic; 
 }
 
 /* Numbers (ints, floats) */
 .highlight .m, .highlight .mi, .highlight .mf, .highlight .mo { 
-  color: #005cc5; 
+  color: #ae81ff; /* สีม่วง */
 }
 
-/* Operators and Punctuation (=, +, ==) */
-.highlight .o, .highlight .p { 
-  color: #e36209; 
+/* Operators (=, +, ==) */
+.highlight .o { 
+  color: #f92672; /* สีชมพูอมแดง */
+}
+
+/* Punctuation ((), {}, [], :, ,) */
+.highlight .p { 
+  color: #f8f8f2; /* สีข้อความหลัก */
 }
 
 /* Variable names and Properties */
 .highlight .n, .highlight .na, .highlight .nv, .highlight .nx { 
-  color: #24292e; 
+  color: #f8f8f2; /* สีข้อความหลัก */
 }
 
 /* Class names */
 .highlight .nc, .highlight .nn { 
-  color: #6f42c1; 
+  color: #a6e22e; /* สีเขียว */
   font-weight: bold; 
 }
 
 /* Line numbers (if enabled) */
 .highlight .lineno { 
-  color: #959da5; 
+  color: #90908a; /* สีเทาสว่างกว่าคอมเมนต์เล็กน้อย */
   padding-right: 12px; 
   user-select: none; 
 }
