@@ -52,7 +52,7 @@ body {
   background: var(--bg);
   color: var(--text);
   /* ตัวอย่างการจับคู่ฟอนต์ Inter กับ Prompt */
-  font-family: Inter, "Prompt", "Segoe UI", Tahoma, sans-serif;
+  font-family: "Prompt", Tahoma, sans-serif;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
