@@ -36,7 +36,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/*
+
 body {
   margin: 0;
   background: var(--bg);
@@ -45,17 +45,7 @@ body {
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
-*/
 
-body {
-  margin: 0;
-  background: var(--bg);
-  color: var(--text);
-  /* ตัวอย่างการจับคู่ฟอนต์ Inter กับ Prompt */
-  font-family: "Prompt", Tahoma, sans-serif;
-  line-height: 1.65;
-  -webkit-font-smoothing: antialiased;
-}
 
 a {
   color: inherit;
