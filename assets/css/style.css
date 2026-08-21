@@ -1,4 +1,6 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Prompt:wght@300;400;500;600&display=swap');
+
+root {
   --bg: #f7f8fb;
   --surface: rgba(255, 255, 255, .78);
   --solid: #fff;
@@ -35,11 +37,23 @@ html {
   scroll-behavior: smooth;
 }
 
+/*
 body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
   font-family: Inter, "Segoe UI", Tahoma, sans-serif;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+*/
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  /* ตัวอย่างการจับคู่ฟอนต์ Inter กับ Prompt */
+  font-family: Inter, "Prompt", "Segoe UI", Tahoma, sans-serif;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
