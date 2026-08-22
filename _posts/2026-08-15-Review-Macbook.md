@@ -12,7 +12,7 @@ reading_time: "อ่าน 2 นาที"
 &nbsp;&nbsp;&nbsp;ก่อนอื่นเลยขอบอกว่าเกิดมาตั้งหลายปี ครั้งแรกเลยที่ใช้อาจจะไม่ได้เก่งแต่จะพูดถึงในมุมมองของ Window User เปลี่ยนมาเป็น Mac User ซึ่งก็ไม่ได้ใช้เป็นหลักเพราะยังใช้ window ทำงานอยู่ทุกวัน
 
 <p align="center">
-  <img class="responsive-image" src="/assets/images/Review_Macbook/macbook_neo.heic">
+  <img class="responsive-image" src="/assets/images/Review_Macbook/macbook_neo.jpeg">
   <br>
   <small>Macbook Neo</small>
 </p>
