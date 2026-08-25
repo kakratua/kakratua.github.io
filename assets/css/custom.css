@@ -82,7 +82,7 @@ figure.highlight, pre {
 
   /* ตั้งค่าเริ่มต้นของรูปภาพ */
   .album-container img {
-    width: 200px; /* ปรับขนาดรูปเริ่มต้นที่นี่ */
+    width: auto; /* ปรับขนาดรูปเริ่มต้นที่นี่ */
     height: 300px;
     object-fit: cover;
     border-radius: 8px;
