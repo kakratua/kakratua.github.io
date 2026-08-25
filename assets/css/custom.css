@@ -98,6 +98,13 @@ figure.highlight, pre {
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
   }
 
+  /* สำหรับ Mobile (หน้าจอแคบกว่า 768px) ขยายแค่ 1.5 หรือ 2 เท่า เพื่อไม่ให้ล้นจอ */
+  @media (max-width: 768px) {
+    .album-container img:hover {
+      transform: scale(1.5); /* ปรับขนาดตามต้องการ */
+    }
+  }
+
   /*ภาพขขายไม่ล้นจอ*/
   img:hover{
     max-width: 100vw;
