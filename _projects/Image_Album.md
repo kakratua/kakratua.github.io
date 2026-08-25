@@ -11,3 +11,5 @@ date: 2026-08-25
   <img src="https://via.placeholder.com/300x200" alt="รูปที่ 2">
   <img src="https://via.placeholder.com/300x200" alt="รูปที่ 3">
 </div>
+
+[![คำอธิบายรูป](URL_รูปภาพขนาดเล็ก)](URL_รูปภาพขนาดใหญ่เต็มจอ)
