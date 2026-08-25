@@ -103,7 +103,7 @@ figure.highlight, pre {
 
 /* อุปกรณ์หน้าจอสัมผัส (Mobile / Tablet) */
 @media (hover: none) or (pointer: coarse) {
-  .album-container img:hover { /* ใช้ :active (ตอนใช้นิ้วแตะค้าง) แทน :hover */
+  .album-container img:focus { /* ใช้ :active (ตอนใช้นิ้วแตะค้าง) แทน :hover */
     transform: scale(1.5);
     z-index: 10;
     position: relative;
