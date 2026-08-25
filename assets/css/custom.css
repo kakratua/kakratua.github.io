@@ -99,4 +99,10 @@ figure.highlight, pre {
     padding: 0 80px;
   }
 
+  /*ภาพขขายไม่ล้นจอ*/
+  img:hover{
+    max-width: 100vw;
+    box-sizing: border-box;
+  }
+
 /* album image */
