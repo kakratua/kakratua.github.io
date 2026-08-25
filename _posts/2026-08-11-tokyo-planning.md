@@ -17,7 +17,7 @@ reading_time: "อ่าน 1 นาที"
 
 ## กำหนดการเบื้องต้น
 
-`
+```
 20-28 พฤศจิกายน 2569 Autumn in my heart
 20 : DMK -> NRT
 21 : mt.fuji
@@ -27,5 +27,5 @@ reading_time: "อ่าน 1 นาที"
 25 : kamakura
 26 : tokyo
 29 : ซื้อของฝาก กลางคืนบินกลับ NTR -> DMK
-`
+```
 
