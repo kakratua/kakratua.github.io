@@ -1,7 +1,7 @@
 ---
 title: Markdown Manual Command
 description: คู่มือสำหรับการเขียน markdown
-tech: [HTML, Markdown, command]
+tech: [HTML, Markdown, command, Image, Album]
 date: 2026-08-13
 ---
 
