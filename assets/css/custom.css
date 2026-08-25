@@ -70,3 +70,30 @@ figure.highlight, pre {
   padding-right: 12px; 
   user-select: none; 
 }
+
+/* album image */
+
+/* จัดกลุ่มรูปภาพให้อยู่เรียงกัน */
+  .album-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  /* ตั้งค่าเริ่มต้นของรูปภาพ */
+  .album-container img {
+    width: 200px; /* ปรับขนาดรูปเริ่มต้นที่นี่ */
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* ทำให้ตอนขยายดูนุ่มนวล */
+    cursor: zoom-in;
+  }
+
+  /* เอฟเฟกต์เมื่อเอาเมาส์ชี้ (Hover) */
+  .album-container img:hover {
+    transform: scale(1.5); /* ขยายขึ้น 1.5 เท่า (ปรับตัวเลขได้) */
+    z-index: 10;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  }
+
+/* album image */
