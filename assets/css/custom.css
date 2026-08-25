@@ -91,14 +91,6 @@ figure.highlight, pre {
   }
 
   /* เอฟเฟกต์เมื่อเอาเมาส์ชี้ (Hover) */
-/*
-  .album-container img:hover {
-    transform: scale(4); /* ขยายขึ้น 4 เท่า (ปรับตัวเลขได้) */
-    z-index: 10;
-    position: relative;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-  }
-*/
 /* อุปกรณ์ที่มีเมาส์ (Desktop / Laptop) */
 @media (hover: hover) and (pointer: fine) {
   .album-container img:hover {
