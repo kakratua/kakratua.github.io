@@ -91,19 +91,33 @@ figure.highlight, pre {
   }
 
   /* เอฟเฟกต์เมื่อเอาเมาส์ชี้ (Hover) */
+/*
   .album-container img:hover {
     transform: scale(4); /* ขยายขึ้น 4 เท่า (ปรับตัวเลขได้) */
     z-index: 10;
     position: relative;
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
   }
-
-  /* สำหรับ Mobile (หน้าจอแคบกว่า 768px) ขยายแค่ 1.5 หรือ 2 เท่า เพื่อไม่ให้ล้นจอ */
-  @media (max-width: 768px) {
-    .album-container img:hover {
-      transform: scale(1.5); /* ปรับขนาดตามต้องการ */
-    }
+*/
+/* อุปกรณ์ที่มีเมาส์ (Desktop / Laptop) */
+@media (hover: hover) and (pointer: fine) {
+  .album-container img:hover {
+    transform: scale(4);
+    z-index: 10;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
   }
+}
+
+/* อุปกรณ์หน้าจอสัมผัส (Mobile / Tablet) */
+@media (hover: none) or (pointer: coarse) {
+  .album-container img:active { /* ใช้ :active (ตอนใช้นิ้วแตะค้าง) แทน :hover */
+    transform: scale(1.5);
+    z-index: 10;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  }
+}
 
   /*ภาพขขายไม่ล้นจอ*/
   img:hover{
