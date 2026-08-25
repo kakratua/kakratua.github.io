@@ -91,7 +91,7 @@ figure.highlight, pre {
 
   /* เอฟเฟกต์เมื่อเอาเมาส์ชี้ (Hover) */
   .album-container img:hover {
-    transform: scale(1.5); /* ขยายขึ้น 1.5 เท่า (ปรับตัวเลขได้) */
+    transform: scale(2); /* ขยายขึ้น 1.5 เท่า (ปรับตัวเลขได้) */
     z-index: 10;
     position: relative;
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
