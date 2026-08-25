@@ -104,7 +104,7 @@ figure.highlight, pre {
 /* อุปกรณ์หน้าจอสัมผัส (Mobile / Tablet) */
 @media (hover: none) or (pointer: coarse) {
   .album-container img:focus { /* ใช้ :active (ตอนใช้นิ้วแตะค้าง) แทน :hover */
-    transform: scale(1.5);
+    transform: scale(2);
     z-index: 10;
     position: relative;
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
