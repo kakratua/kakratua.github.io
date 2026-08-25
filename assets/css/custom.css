@@ -91,25 +91,25 @@ figure.highlight, pre {
   }
 
   /* เอฟเฟกต์เมื่อเอาเมาส์ชี้ (Hover) */
-/* อุปกรณ์ที่มีเมาส์ (Desktop / Laptop) */
-@media (hover: hover) and (pointer: fine) {
-  .album-container img:hover {
-    transform: scale(4);
-    z-index: 10;
-    position: relative;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  /* อุปกรณ์ที่มีเมาส์ (Desktop / Laptop) */
+  @media (hover: hover) and (pointer: fine) {
+    .album-container img:hover {
+      transform: scale(4);
+      z-index: 10;
+      position: relative;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
   }
-}
 
-/* อุปกรณ์หน้าจอสัมผัส (Mobile / Tablet) */
-@media (hover: none) or (pointer: coarse) {
-  .album-container img:focus { /* ใช้ :active (ตอนใช้นิ้วแตะค้าง) แทน :hover */
-    transform: scale(2);
-    z-index: 10;
-    position: relative;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  /* อุปกรณ์หน้าจอสัมผัส (Mobile / Tablet) */
+  @media (hover: none) or (pointer: coarse) {
+    .album-container img:hover { /* ใช้ :active (ตอนใช้นิ้วแตะค้าง) แทน :hover */
+      transform: scale(2);
+      z-index: 10;
+      position: relative;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
   }
-}
 
   /*ภาพขขายไม่ล้นจอ*/
   img:hover{
