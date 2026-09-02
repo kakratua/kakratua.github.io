@@ -117,3 +117,12 @@ figure.highlight, pre {
   }
 
 /* album image */
+
+.responsive-map {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+
+.responsive-map iframe
