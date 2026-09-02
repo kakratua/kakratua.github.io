@@ -231,7 +231,7 @@ def hello_world():
 <summary>🗺️ แผนที่</summary>
 <div class="responsive-map">
 <iframe 
-  src="https://maps.app.goo.gl/HxGJ9P7TYtjkRWQa6&z=15&output=embed"
+  src="https://www.google.com/maps/dir/Nippori+Station/Fujisawa+Station"
   width="100%"
   height="450"
   style="border:0;"
