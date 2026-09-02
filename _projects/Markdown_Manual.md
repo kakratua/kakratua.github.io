@@ -227,7 +227,8 @@ def hello_world():
 <!-- your comment here -->
 
 ---
-
+<details>
+<summary>🗺️ แผนที่</summary>
 <div class="responsive-map">
 <iframe 
   src="https://maps.app.goo.gl/HxGJ9P7TYtjkRWQa6&z=15&output=embed"
@@ -239,3 +240,4 @@ def hello_world():
   referrerpolicy="no-referrer-when-downgrade">
 </iframe>
 </div>
+</details>
