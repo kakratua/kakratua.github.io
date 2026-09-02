@@ -230,7 +230,7 @@ def hello_world():
 
 <div class="responsive-map">
 <iframe 
-  src="https://www.google.com/maps?q=14.123456,101.123456&z=15&output=embed"
+  src="https://maps.app.goo.gl/uE7U7MiGLL4G7k7S6&z=15&output=embed"
   width="100%"
   height="450"
   style="border:0;"
