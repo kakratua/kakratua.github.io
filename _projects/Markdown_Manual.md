@@ -228,3 +228,13 @@ def hello_world():
 
 ---
 
+
+<iframe
+  src="https://www.google.com/maps?q=14.123456,101.123456&z=15&output=embed"
+  width="100%"
+  height="450"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
